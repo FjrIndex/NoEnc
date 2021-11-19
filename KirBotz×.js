@@ -272,7 +272,7 @@ return kirbotz.sendMessage(from, {"text": '',"contentText": title + text,"footer
   message: {
     imageMessage: {
       mimetype: 'image/jpeg',
-      caption: '👑QueenRuka🔱,
+      caption: '👑QueenRuka🔱',
       jpegThumbnail: fs.readFileSync('./AkIrTid/neko.jpg'),
       viewOnce: true
     }
