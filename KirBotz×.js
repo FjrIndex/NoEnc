@@ -61,7 +61,7 @@ const commandsDB = JSON.parse(fs.readFileSync('./database/commands.json'))
 
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
 
-cr = 'KirBotz'
+cr = '♛QueenRuka👑'
 owner = setting.OwnerNumber
 botname = setting.BotName
 lolkey = setting.LolKey
@@ -184,7 +184,7 @@ let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: '
         const mentions = (teks, memberr, id) => {
             (id == null || id == undefined || id == false) ? kirbotz.sendMessage(from, teks.trim(), extendedText, { contextInfo: { "mentionedJid": memberr } }) : kirbotz.sendMessage(from, teks.trim(), extendedText, { quoted: ftrol, contextInfo: { "mentionedJid": memberr } })
         }
-        const krbtz = fs.readFileSync ('./AkIrTid/kirbotzthumb.jpg')
+        const krbtz = fs.readFileSync ('./AkIrTid/Neko.jpg')
         const costum = (pesan, tipe, target, target2) => {
 			kirbotz.sendMessage(from, pesan, tipe, { quoted: { key: { fromMe: false, participant: `${target}`, ...(from ? { remoteJid: from } : {}) }, message: { conversation: `${target2}` } } })
 		}
@@ -272,8 +272,8 @@ return kirbotz.sendMessage(from, {"text": '',"contentText": title + text,"footer
   message: {
     imageMessage: {
       mimetype: 'image/jpeg',
-      caption: 'KirBotz',
-      jpegThumbnail: fs.readFileSync('./AkIrTid/kirbotz.jpg'),
+      caption: '👑QueenRuka🔱,
+      jpegThumbnail: fs.readFileSync('./AkIrTid/neko.jpg'),
       viewOnce: true
     }
   }
@@ -521,10 +521,10 @@ case 'menu':
 kirbotz.sendMessage(from, {"contentText": `Hai Kak *${pushname}* ${ucapanWaktu}
 
 *──────" 𝕭𝖔𝖙 𝕴𝖓𝖋𝖔 "──────*
- 👤OWNER : *https://wa.me/6287705048235*
+ 👤OWNER : *https://wa.me/6282112080081*
  💌EMAIL : *tesheroku123@gmail.com*
- 🔎YT : *https://bit.ly/3BpBe1Z*
- 🪀GROUP : *https://bit.ly/3Ene2TO*
+ 🔎YT : *NekoNepuu*
+ 🪀GROUP : *Chat Owner*
 `,"footerText": `*ꪶ ཻུ۪۪ꦽꦼ̷⸙𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ ཻུ۪۪ꦽꦼ̷⸙ || ${date}*`,
 "buttons": [
 {buttonId: `.allmenu`, buttonText: {displayText: '🏴‍☠️ 𝕄𝔼ℕ𝕌 🏴‍☠️'}, type: 1},
@@ -533,7 +533,7 @@ kirbotz.sendMessage(from, {"contentText": `Hai Kak *${pushname}* ${ucapanWaktu}
 "headerType": "DOCUMENT", "documentMessage": {
             "url": "https://mmg.whatsapp.net/d/f/Ano5cGYOFQnC51uJaqGBWiCrSJH1aDCi8-YPQMMb1N1y.enc",
             "mimetype": "application/pdf",
-            "title": "KirBotz.pdf",
+            "title": "Neko.pdf",
             "fileSha256": "8Xfe3NQDhjwVjR54tkkShLDGrIFKR9QT5EsthPyxDCI=",
             "fileLength": "999999999999",
             "pageCount": 999,
@@ -551,7 +551,8 @@ case 'allmenu':
 const totalgrouppp = await kirbotz.chats.array.filter(v => v.jid.endsWith('g.us'))
 const totalkontakkk = await kirbotz.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
 const totalchattt = await kirbotz.chats.all()
-const SadGril = "6287705048235@s.whatsapp.net"
+const SadGril = "6282112080081@s.whatsapp.net"
+
 	run = process.uptime() 
     teks = `${kyun(run)}`
     try {
@@ -770,10 +771,10 @@ imageMessage: mhan.message.imageMessage,
 		${prefix}pubg`,
     footerText: `
     *──────" 𝕭𝖔𝖙 𝕴𝖓𝖋𝖔 "──────*
- 👤OWNER : *https://wa.me/6287705048235*
+ 👤OWNER : *https://wa.me/6282112080081*
  💌EMAIL : *tesheroku123@gmail.com*
- 🔎YT : *https://bit.ly/3BpBe1Z*
- 🪀GROUP : *https://bit.ly/3Ene2TO*
+ 🔎YT : *NekoNepuu*
+ 🪀GROUP : *ChatOwner*
 
 
 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ || ${date}*
